@@ -3,6 +3,7 @@
 namespace Welp\IcalBundle\Tests;
 
 use Welp\IcalBundle\Component\Calendar;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Abstract calendar test case
@@ -10,7 +11,7 @@ use Welp\IcalBundle\Component\Calendar;
  * @package Welp\IcalBundle\Tests
  * @author  Titouan BENOIT <titouan@welp.today>
  */
-abstract class CalendarTestCase extends \PHPUnit_Framework_TestCase
+abstract class CalendarTestCase extends TestCase
 {
 
     /**
